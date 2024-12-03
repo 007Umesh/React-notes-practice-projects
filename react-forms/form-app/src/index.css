@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-input{
+    @apply border-2 shadow-sm shadow-violet-200 rounded-lg p-2 bg-gray-50 outline-none
+}
