@@ -1,10 +1,10 @@
 
+import React from "react";
 
 
-
-function Home(){
+function Home({isLoggedIn}){
 return (
-    <div>
+    <div  className="flex justify-center items-center">
         Home
     </div>
 )

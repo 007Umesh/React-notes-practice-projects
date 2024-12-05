@@ -1,13 +1,13 @@
 
+import React from "react";
 
 
-
-function Dashborad(){
+function Dashboard(){
 return(
-    <div>
+    <div className="flex justify-center items-center">
         Welcome to Dashborad
     </div>
 )
 }
 
-export default Dashborad;
+export default Dashboard;

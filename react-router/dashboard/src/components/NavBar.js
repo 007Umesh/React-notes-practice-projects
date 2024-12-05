@@ -6,12 +6,12 @@ function NavBar(props){
     let isLoggedIn =props.isLoggedIn;
     let setIsLoggedIn =props.setIsLoggedIn;
     return(
-        <div className="flex justify-evenly border-2 border-black">
+        <div className="flex justify-evenly border-2 border-black pl-0 items-center">
             <Link to='/'>
             <img src={logo} alt="logo" width={70}  loading="lazy"></img>
             </Link>
             <nav>
-                <ul className="flex gap-3">
+                <ul className="flex gap-3 ">
                     <li>
                         <Link to='/'>Home</Link>
                     </li>
@@ -25,7 +25,7 @@ function NavBar(props){
             </nav>
 
             {/* Login - Signup - LogOut - Dashboard */}
-            <div className="flex ml-3 gap-3">
+            <div className="flex ml-3 gap-4">
                 {!isLoggedIn &&
                     <Link to='/Login'>
                     <button>Login</button>
